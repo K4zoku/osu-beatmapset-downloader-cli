@@ -1,0 +1,28 @@
+{
+  "name": "osu-beatmapset-downloader-cli",
+  "description": "",
+  "version": "1.0.0",
+  "main": "./src/main/cli.js",
+  "bin": {
+    "obdl": "./src/main/cli.js"
+  },
+  "scripts": {
+    "test": "obdl"
+  },
+  "keywords": [
+    "osu",
+    "beatmapset",
+    "beatmap",
+    "downloader",
+    "cli"
+  ],
+  "author": "Kazoku",
+  "license": "MIT",
+  "dependencies": {
+    "cli-progress": "^3.9.0",
+    "mz": "^2.7.0",
+    "node-fetch": "^2.6.1",
+    "osu-beatmapset-downloader": "^1.0.7",
+    "yargs": "^17.0.1"
+  }
+}
